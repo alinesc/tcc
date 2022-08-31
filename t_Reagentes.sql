@@ -41,6 +41,7 @@ CREATE TABLE `t_reagentes` (
 
 LOCK TABLES `t_reagentes` WRITE;
 /*!40000 ALTER TABLE `t_reagentes` DISABLE KEYS */;
+INSERT INTO `t_reagentes` VALUES ('1A','7647-14-5','Cloreto de Sódio','Sodium Chloride','I2','https://www.sigmaaldrich.com/BR/pt/sds/sigald/s9888',''),('2B','7647-01-0','Ácido Clorídrico','Hydrochloric acid','I9','https://www.sigmaaldrich.com/BR/pt/sds/sigald/320331','Neutralizar a solução com bicarbonato de sódio.'),('3C','7786-30-3','Cloreto de Magnésio','Magnesium Chloride','I3','https://www.sigmaaldrich.com/BR/pt/sds/sigma/m8266','Enviar para incineração.');
 /*!40000 ALTER TABLE `t_reagentes` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-08-30 22:59:26
+-- Dump completed on 2022-08-31  8:45:25
